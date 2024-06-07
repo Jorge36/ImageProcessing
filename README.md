@@ -1,5 +1,5 @@
 # ImageProcessing
-Program to recolor the flowers of a image.
+Program to recolor the flowers of a image. Intellij IDE was used to code the program.
 
 Several threads are created to recolor the image faster. Also there is an option to recolor the image with one thread. Then, in the program times are taken to compare both solutions. 
 
