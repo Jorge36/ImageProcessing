@@ -1,5 +1,6 @@
 # ImageProcessing
 Program to recolor the flowers of a image. Intellij IDE was used to code the program.
+ImageProcessing is a coding exercise taken from [Java Multithreading, Concurrency & Performance Optimization](https://www.udemy.com/course/java-multithreading-concurrency-performance-optimization/?couponCode=ST21MT60724) course on Udemy. 
 
 Several threads are created to recolor the image faster. Also there is an option to recolor the image with one thread. Then, in the program times are taken to compare both solutions. 
 
