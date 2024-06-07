@@ -39,6 +39,9 @@ Lastly, we use the class BufferedImage and WritableRaster to set the RGB of a si
 
 ![alt_text](https://github.com/Jorge36/ImageProcessing/blob/5c78107ddedcbe3cd10f820645cdcd0f00be916a/out/many-flowers.jpg)
 
-
+More information:
+1. https://docs.oracle.com/javase/8/docs/api/java/awt/image/WritableRaster.html
+2. https://redketchup.io/color-picker
+3. https://www.baeldung.com/java-rgb-color-representation
 
     
