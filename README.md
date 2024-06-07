@@ -17,9 +17,9 @@ Thread thread = new Thread(() -> {
 ```
 I use RGB (32/bit integer) to represent colors which each color component is allocated in 8 bits. The highest 8 bits are often used for the alpha channel (representing transparency), followed by red, green, and blue. The structure looks like this:
 
-a. Bits 24-31: Alpha (A)
-b. Bits 16-23: Red (R)
-c. Bits 8-15: Green (G)
+a. Bits 24-31: Alpha (A) <br>
+b. Bits 16-23: Red (R) <br>
+c. Bits 8-15: Green (G) <br>
 d. Bits 0-7: Blue (B)
 
 &, |, << and >> are used to create RGB colors. 
