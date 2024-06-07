@@ -5,7 +5,7 @@ Several threads are created to recolor the image faster. Also there is an option
 
 I create a thread by implementing the Runnable interface using lamda expression. While using the lambda expressions, we can skip the new Runnable() and run() method because the compiler knows that Thread object takes a Runnable object and that contains only one method run() that takes no argument.
 
-'''
+```
 Thread thread = new Thread(() -> {
   int xOrigin = 0 ;
   int yOrigin = height * threadMultiplier;
@@ -13,4 +13,4 @@ Thread thread = new Thread(() -> {
   recolorImage(originalImage, resultImage, xOrigin, yOrigin, width, height);
 });
 
-'''
+```
