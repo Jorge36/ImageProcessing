@@ -28,7 +28,7 @@ I use RGB (32/bit integer) to represent colors which each color component is all
 0x00FF0000 is the hexadecimal representation of red color, 0x0000FF00 is the hex of green and 0x000000FF the blue one.
 They are used to get the red, greeen and blue colors of each RGB along with >> right shift operator. 
 
-Then I have a function to check if a pixel is gray using the method abs from Math. 
+Then, I have a function to check if a pixel is gray using the method abs from Math. 
 Lastly, we use the class BufferedImage and WritableRaster to set the RGB of a single pixel.
 
 * Image before processing:
